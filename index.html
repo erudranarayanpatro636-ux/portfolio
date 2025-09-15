@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E. Rudra Narayan Patro | Portfolio</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      scroll-behavior: smooth;
+    }
+    header { 
+      background: #0d6efd; 
+      color: white; 
+      text-align: center; 
+      padding: 30px; 
+    }
+    nav { 
+      background: #222; 
+      padding: 10px; 
+      text-align: center; 
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a { 
+      color: white; 
+      margin: 0 15px; 
+      text-decoration: none; 
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #0d6efd;
+    }
+    nav a.active {
+      color: #0d6efd;
+      border-bottom: 2px solid #0d6efd;
+      padding-bottom: 4px;
+    }
+    section { 
+      padding: 60px 40px; 
+    }
+    h2 { 
+      color: #0d6efd; 
+      margin-bottom: 20px;
+    }
+    .skills, .projects, .certifications { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+      gap: 20px; 
+    }
+    .card { 
+      background: #f4f4f4; 
+      padding: 20px; 
+      border-radius: 10px; 
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer { 
+      background: #0d6efd; 
+      color: white; 
+      text-align: center; 
+      padding: 15px; 
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>E. Rudra Narayan Patro</h1>
+    <p>B.Tech Electronics and Communication Engineering</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>ECE student passionate about Embedded Systems, IoT, and Edge Computing. Skilled in C, C++, Embedded C, Keil, Flash Magic, and Proteus with hands-on experience in microcontrollers like ESP32 and ARM7.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">C, C++, Embedded C</div>
+      <div class="card">Keil, Flash Magic, Proteus</div>
+      <div class="card">ESP32, ARM7, Arduino</div>
+      <div class="card">IoT, GSM, GPS, LiDAR, Radar</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Smart Navigation System</h3>
+        <p>ESP32, LiDAR, GSM & GPS-based driver assistance system with real-time alerts and live monitoring.</p>
+      </div>
+      <div class="card">
+        <h3>IoT Temperature Dashboard</h3>
+        <p>ESP32 + DHT sensor sending live data to Firebase/Adafruit IO for monitoring.</p>
+      </div>
+      <div class="card">
+        <h3>LCD & 7-Segment Interfacing</h3>
+        <p>LPC2148 ARM7 microcontroller project with Proteus simulation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications">
+      <div class="card">Embedded Systems Workshop (Keil & Proteus)</div>
+      <div class="card">IoT & Edge Computing – NPTEL</div>
+      <div class="card">C & C++ Programming</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:erudranarayan636@gmail.com">erudranarayan636@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/e-rudra-narayan-patro-57b445354" target="_blank">linkedin.com/in/E RUDRA NARAYAN PATRO</a></p>
+    <p>GitHub: <a href="https://github.com/erudranarayanpatro636-ux" target="_blank">github.com/erudranarayanpatro636-ux</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 E. Rudra Narayan Patro | Portfolio</p>
+  </footer>
+
+  <!-- Link external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
